@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- Designined by Mahathir -->
+<!-- Designed by Mahathir | Customized for Forkan -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Responsive Portfolio Website | Mahathir </title>
+    <title>Mahathir | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
@@ -19,21 +19,133 @@
   <!-- navgaition menu -->
   <nav>
     <div class="navbar">
-      <div class="logo"><a href="#">Mahathir.io</a></div>
+      <div class="logo"><a href="#" id="brand-logo">Mahathir.io</a></div>
       <ul class="menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
           <div class="cancel-btn">
             <i class="fas fa-times"></i>
           </div>
       </ul>
-      <div class="media-icons">
-        <a href="https://www.facebook.com/zahirbin.mahathir"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://wa.me/qr/6CAMPU3C4LMMM1"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://t.me/mahathir787"><i class="fab fa-telegram"></i></a>
+      <div class="media-icons" id="nav-social-icons">
+        <!-- সোশ্যাল আইকন config.js থেকে স্বয়ংক্রিয়ভাবে বসবে -->
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one" id="hero-greeting">Hello,</div>
+       <div class="text-two" id="hero-name">I'm Forkan</div>
+       <div class="text-three" id="hero-role">CSE Student</div>
+       <div class="text-four" id="hero-location">From Bangladesh</div>
+     </div>
+     <div class="button">
+       <button id="hero-btn">Hire Me</button>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="about.jpg" alt="Forkan" id="about-img">
+    </div>
+    <div class="right">
+      <div class="topic" id="about-heading">Web Development</div>
+      <p id="about-text"></p>
+      <div class="button">
+        <a href="#" id="about-cv-link" target="_blank" rel="noopener">
+          <button id="about-cv-btn">Download CV</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic" id="skills-heading">Skills Reflect My Knowledge</div>
+       <p id="skills-text"></p>
+       <div class="experience">
+         <div class="num" id="skills-years">1</div>
+         <div class="exp" id="skills-years-label">Year Of <br> Learning</div>
+       </div>
+     </div>
+     <div class="boxes" id="skills-boxes">
+       <!-- স্কিল বক্স config.js থেকে স্বয়ংক্রিয়ভাবে তৈরি হবে -->
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Services</span></div>
+     <div class="boxes" id="services-boxes">
+       <!-- সার্ভিস বক্স config.js থেকে স্বয়ংক্রিয়ভাবে তৈরি হবে -->
+     </div>
+   </div>
+ </section>
+
+<!-- My Projects Section Start -->
+<section class="projects" id="projects">
+  <div class="content">
+    <div class="title"><span id="projects-heading">My Projects</span></div>
+    <p class="projects-intro" id="projects-text"></p>
+    <div class="boxes" id="projects-boxes">
+      <!-- প্রজেক্ট কার্ড config.js থেকে স্বয়ংক্রিয়ভাবে তৈরি হবে -->
+    </div>
+  </div>
+</section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic" id="contact-heading">Have Any Project?</div>
+      <p id="contact-subheading"></p>
+      <div class="media-icons" style="font-size:40px; margin:20px;" id="contact-social-icons">
+        <!-- সোশ্যাল আইকন config.js থেকে স্বয়ংক্রিয়ভাবে বসবে -->
+      </div>
+      <div class="button">
+        <button id="contact-btn">Let's Chat</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#" id="footer-name">Forkan</a> | &#169; <span id="footer-year">2026</span> All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
       </div>
     </div>
     <div class="menu-btn">
